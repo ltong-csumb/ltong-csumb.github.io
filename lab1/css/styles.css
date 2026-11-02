@@ -1,0 +1,82 @@
+header, nav, main, footer {
+  text-align: center;
+}
+nav {
+    border-bottom: 2px solid #FFFFFF;
+}
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #eaf3ea;
+  text-decoration: none; /* Remove underline from links */
+}
+nav a:hover {
+  color: #01aaf8;
+  background-color: #fcfcfc;
+  font-size: 2rem;
+  border-bottom: 2px solid #4dabf5;
+}
+main {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center the items horizontally */
+  gap: 2rem;
+  /*flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+body {
+    background-color: #1769aa;
+  color: #FFFFFF; /* Set text color to white for contrast */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;  /* Set line height for better readability */
+}
+#profile-img {
+    width:200px;
+    height: auto;
+}
+#logo {
+    width: 100px;
+    height: auto;
+}
+#table-header {
+  background-color: #173f73; /* Dark blue background for header */
+  color: #FFFFFF; /* White text for header */
+}
+
+.table-row {
+  background-color: #f2f2f2; /* Light gray background for rows */
+} 
+
+table{
+  border-collapse: collapse; /* Collapse borders into a single border */
+  margin-bottom: 2rem; /* Add some space below the table */
+  width: 75%;
+} 
+
+th, td {
+  border: 1px solid #dbe4f0; /* Add a border to the table, header cells, and data cells */
+  padding: 0.5rem; /* Add padding to cells for better readability */
+  text-align: left; /* Align text to the left */
+}
+
+#about-table {
+  margin: 0 auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-table caption {
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  width: min(100%, 40rem);
+  min-height: 40rem;
+  margin: 0 auto;
+  border: 1px solid #dbe4f0;
+}
+
+footer {
+    border-top: 2px solid #FFFFFF;
+}
