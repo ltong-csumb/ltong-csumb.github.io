@@ -117,6 +117,26 @@ figcaption {
     margin: 20px auto;
 }
 
+.center-text {
+    text-align: center;
+}
+
+details {
+    background-color: #F7FAF6;
+    border: 1px solid #739B78;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+summary {
+    color: #204E3A;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
 /* Image Source */
 
 .image-source {
