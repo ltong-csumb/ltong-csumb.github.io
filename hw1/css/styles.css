@@ -58,7 +58,31 @@ section {
     border-radius: 8px;
 }
 
-h2, h3 {
+.model-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.model-grid .card {
+    background-color: #DDEFE0;
+    border: 2px solid #739B78;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    min-width: 0;
+}
+
+.model-image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
     color: #204E3A;
 }
 
