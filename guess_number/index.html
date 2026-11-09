@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Guess a Number </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <br>
+        <div id="main">
+
+          <div class="scores">
+            <div>
+                <h3>Won</h3>
+                <span id="wins">0</span>
+            </div>
+            <div>
+                <h3>Lost</h3>
+                <span id="losses">0</span>
+            </div>
+          </div>
+
+          <p class="game-label">Enter a guess:</p>
+          <div class="guess-area">
+            <input type="text" id="playerGuess" size="5">         
+            <button id="guessBtn"> Guess </button> <br>
+            <button id="resetBtn"> Reset </button>
+          </div>
+           
+          <div id="feedback"></div>
+
+            <div>
+                <p class="game-label">
+                Previous Guesses: 
+                <span id="guesses">
+                    
+                </span>
+                </p>
+            </div>
+
+        </div>
+
+        <script src="js/script.js"></script> 
+
+        <footer>
+            <p>&copy; 2026 Loi Tong. All rights reserved.</p>
+            <p>This site is for academic purposes only.</p>
+            <p>CST 336 Internet Programming.</p>
+            <p>Disclaimer: The information in this webpage is fictitious.<br>
+                It is used for academic purposes only.</p>
+            <img src="img/Logo_Stacked-Greyscale.jpg" alt="College logo" id="logo">
+        </footer>
+    </body>
+
+    
+</html>

@@ -1,0 +1,158 @@
+/* General */
+body {
+    background-color: #8498c2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #243C8F;
+    color: white;
+    padding: 25px;
+    border-bottom: 6px solid #FFC857;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+header h2 {
+    font-size: 20px;
+    color: #FFC857;
+}
+
+/* Main Game Box */
+#main {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 5px solid #FFC857;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Scoreboard */
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #243C8F;
+    border: 2px solid #FFC857;
+    color:#f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.scores h1 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.scores span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#wins {
+    color: #2ECC71;
+}
+
+#losses {
+    color: #E63946;
+}
+
+/* Game Labels */
+.game-label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #243C8F;
+}
+
+/* Number Input */
+#playerGuess {
+    width: 70px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #243C8F;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Guess Button */
+#guessBtn {
+    background-color: #E63946;
+    color: white;
+}
+
+/* Reset Button */
+#resetBtn {
+    background-color: #FFC857;
+    color: #243C8F;
+}
+
+/* Button Hover Effect */
+button:hover {
+    opacity: .7;
+    transform: scale(1.15);
+}
+
+/* Guess Input and Buttons */
+.guess-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+/* Feedback Messages */
+#feedback {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    min-height: 25px;
+}
+
+/* Previous Guesses */
+#guesses {
+    color: #dd640d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #243C8F;
+    color: white;
+    padding: 25px;
+    border-top: 6px solid #FFC857;
+    text-align: center;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+#logo {
+    width: 150px;
+}
