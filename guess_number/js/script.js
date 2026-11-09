@@ -14,6 +14,9 @@ function initializeGame() {
    randomNumber = Math.floor(Math.random() * 99) + 1;
    console.log("randomNumber: " + randomNumber);
    attempts = 0;
+   
+   //attempts counter
+   document.querySelector("#attemptsLeft").textContent = 7;
 
    //hiding the Reset button
    document.querySelector("#resetBtn").style.display = "none";
@@ -45,6 +48,10 @@ function checkGuess() {
     }
     attempts++;
     console.log("Attempts:" + attempts);
+    
+    // Show remaining attempts
+    document.querySelector("#attemptsLeft").textContent = 7 - attempts;
+
     feedback.style.color = "orange";
     if (guess == randomNumber) {
         feedback.textContent ="You guessed it! You Won!";

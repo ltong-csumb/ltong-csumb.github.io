@@ -3,6 +3,11 @@ body {
     background-color: #8498c2;
     font-family: Arial, sans-serif;
     margin: 0;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Header */
@@ -72,6 +77,23 @@ header h2 {
     font-size: 22px;
     font-weight: bold;
     color: #243C8F;
+}
+
+/* Attempts Counter */
+.attempts-counter {
+    background-color: #FFF4CF;
+    border: 2px solid #FFC857;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: #243C8F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#attemptsLeft {
+    color: #E63946;
+    font-size: 28px;
 }
 
 /* Number Input */
