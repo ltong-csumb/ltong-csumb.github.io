@@ -11,55 +11,105 @@
 
 <body class="text-center">
 
-    <h1>US Geography Quiz</h1>
+    <!-- Header -->
+    <header>
+        <h1>US Geography Quiz</h1>
+    </header>
 
-     <!-- Question 1 -->
-    <h3><span id="markImg1"></span>What is the capital of California?</h3>
-    <input type="text" id="q1">
-    <br><br>
-    <div id="q1Feedback"></div>
-    <br><br>
+    <main>
+
+    <!-- Question 1 -->
+    <div class="question-card">
+        <h3><span id="markImg1"></span>What is the capital of California?</h3>
+        <input type="text" id="q1" class="form-control w-50 mx-auto">
+        <br><br>
+        <div id="q1Feedback"></div>
+    </div>
 
     <!-- Question 2 -->
-    <h3><span id="markImg2"></span>What is the longest river?</h3>
-    <select id="q2">
-    <option value="">Select One</option>
-    <option value="ms">Mississippi</option>
-    <option value="mo">Missouri</option>
-    <option value="co">Colorado</option>
-    <option value="de">Delaware</option>
-    </select>
-    <br><br>
-    <div id="q2Feedback"></div>
-    <br><br>
+    <div class="question-card">
+        <h3><span id="markImg2"></span>What is the longest river?</h3>
+        <select id="q2" class="form-select w-50 mx-auto">
+            <option value="">Select One</option>
+            <option value="ms">Mississippi</option>
+            <option value="mo">Missouri</option>
+            <option value="co">Colorado</option>
+            <option value="de">Delaware</option>
+        </select>
+        <br><br>
+        <div id="q2Feedback"></div>
+    </div>
 
     <!-- Question 3 -->
-    <h3><span id="markImg3"></span>What presidents are carved into Mount Rushmore?</h3>
-    <input type="checkbox" id="Jackson"> <label for="Jackson">A. Jackson</label>
-    <input type="checkbox" id="Franklin"> <label for="Franklin">B. Franklin</label>
-    <input type="checkbox" id="Jefferson"> <label for="Jefferson">T. Jefferson</label>
-    <input type="checkbox" id="Roosevelt"> <label for="Roosevelt">T. Roosevelt</label>
-    <br><br>
-    <div id="q3Feedback"></div>
-    <br><br>
+    <div class="question-card">
+        <h3><span id="markImg3"></span>What presidents are carved into Mount Rushmore? Select all that apply.</h3>
+        <input type="checkbox" id="Jackson"> <label for="Jackson">A. Jackson</label>
+        <input type="checkbox" id="Franklin"> <label for="Franklin">B. Franklin</label>
+        <input type="checkbox" id="Jefferson"> <label for="Jefferson">T. Jefferson</label>
+        <input type="checkbox" id="Roosevelt"> <label for="Roosevelt">T. Roosevelt</label>
+        <br><br>
+        <div id="q3Feedback"></div>
+    </div>
 
     <!-- Question 4 -->
-    <h3><span id="markImg4"></span>What is the smallest US State?</h3>
-    <div id="q4Choices"></div>
-    <br><br>
-    <div id="q4Feedback"></div>
+    <div class="question-card">
+        <h3><span id="markImg4"></span>What is the smallest US State?</h3>
+        <div id="q4Choices"></div>
+        <br><br>
+        <div id="q4Feedback"></div>
+    </div>
 
     <!-- Question 5 -->
+    <div class="question-card">
+        <h3><span id="markImg5"></span>What is the largest US state by area?</h3>
+        <div id="q5Choices"></div>
+        <br><br>
+        <div id="q5Feedback"></div>
+    </div>
 
     <!-- Question 6 -->
+    <div class="question-card">
+        <h3><span id="markImg6"></span>Hawaii is the only US state made up entirely of islands.</h3>
+        <select id="q6" class="form-select w-50 mx-auto">
+            <option value="">Select One</option>
+            <option value="T">True</option>
+            <option value="F">False</option>
+        </select>
+        <br><br>
+        <div id="q6Feedback"></div>
+    </div>
 
     <!-- Question 7 -->
+    <div class="question-card">
+        <h3><span id="markImg7"></span>Which of these states border New York? Select all that apply.</h3>
+        <div id="q7Choices"></div>
+        <br><br>
+        <div id="q7Feedback"></div>
+    </div>
 
     <!-- Question 8 -->
+    <div class="question-card">
+        <h3><span id="markImg8"></span>What is the capital of Texas?</h3>
+        <input type="text" id="q8" class="form-control w-50 mx-auto">
+        <br><br>
+        <div id="q8Feedback"></div>
+    </div>
 
     <!-- Question 9 -->
+    <div class="question-card">
+        <h3><span id="markImg9"></span>Which ocean borders the eastern coast of the United States?</h3>
+        <div id="q9Choices"></div>
+        <br><br>
+        <div id="q9Feedback"></div>
+    </div>
 
     <!-- Question 10 -->
+    <div class="question-card">
+        <h3><span id="markImg10"></span>How many Great Lakes are there in North America?</h3>
+        <input type="number" id="q10" class="form-control w-50 mx-auto">
+        <br><br>
+        <div id="q10Feedback"></div>
+    </div>
 
     <!-- Validation Check -->
     <h3 id="validationFdbk" class="bg-danger text-white"></h3>
