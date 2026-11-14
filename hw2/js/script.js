@@ -236,7 +236,7 @@ function rightAnswer(index) {
   let feedback = document.querySelector(`#q${index}Feedback`);
   feedback.textContent = "Correct!";
   feedback.className = "bg-success text-white";
-  setMarkImage(index, "checkmark.png", "Checkmark");
+  setMarkImage(index, "Checkmark.png", "Checkmark");
   score += 10;
 }
 
