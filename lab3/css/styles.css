@@ -1,0 +1,16 @@
+/* Footer */
+footer {
+    background-color: #243C8F;
+    color: white;
+    padding: 25px;
+    border-top: 6px solid #FFC857;
+    text-align: center;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+#logo {
+    width: 150px;
+}
