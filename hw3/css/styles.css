@@ -1,0 +1,207 @@
+/* ==================== General ==================== */
+
+body {
+    background-color: #E3F2F5;
+    color: #164B60;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #164B60;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header p {
+    color: #A2D5C6;
+    font-style: italic;
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Buttons */
+#join a, button {
+    display: inline-block;
+    background-color: #164B60;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#join a:hover, button:hover {
+    background-color: #4597B8;
+}
+
+
+/* ==================== Home Page ==================== */
+
+/* Book Containers */
+#books, #recommendations {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Book Cards */
+.book {
+    background-color: white;
+    border: 2px solid #A2D5C6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Book Covers */
+.book img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 225px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.book img:hover {
+    opacity: 0.8;
+}
+
+/* Book Titles */
+.book h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Book Information */
+.book p {
+    font-size: 14px;
+    white-space: pre-line;
+    text-align: left;
+}
+
+/* Join Section */
+#join {
+    background-color: #A2D5C6;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* ==================== Sign Up Page ==================== */
+
+/* Background */
+.signup {
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Sign Up Form */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #A2D5C6;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Form Labels */
+.signup form label {
+    display: block;
+    text-align: left;
+    max-width: 350px;
+    margin: auto;
+}
+
+/* Input Fields */
+input, select {
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #4597B8;
+    border-radius: 5px;
+}
+
+.signup form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0 15px;
+}
+
+/* Validation Message */
+#formError {
+    color: red;
+}
+
+
+/* ==================== Welcome Page ==================== */
+
+/* Welcome Background */
+.welcome {
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    min-height: 100vh;
+}
+
+/* Welcome Heading */
+.welcome h1 {
+    background-color: #164B60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+/* ==================== Footer ==================== */
+
+footer {
+    background-color: #164B60;
+    color: white;
+    padding: 15px;
+    border-top: 4px solid #A2D5C6;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 3px;
+}
+
+#logo {
+    width: 150px;
+}
